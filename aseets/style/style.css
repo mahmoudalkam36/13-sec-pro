@@ -26,6 +26,81 @@
     --font-igon:1rem;
     --font-family: "Nunito", sans-serif;
 }
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: var(--button);
+  color: var(--text-primary1);
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  display: none;
+}
+
+#scrollTopBtn:hover {
+  background-color:var(--bg-primary);
+}
+.section0{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  background-color:var(--nav);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  font-family: var(--font-family);
+}
+.section0 a{
+    text-decoration: none;
+}
+.logo{
+  font-size:var(--text-h1);
+  display: flex;
+  transition: 0.3s ease;
+  color: var(--text-primary1);
+  margin-left: 80px;
+}
+.logo:hover{
+  transform: scale(1.1);
+}
+.section0 logo{
+    text-decoration: none;
+}
+.navbar{
+  font-size: 20px;
+  word-spacing: 28px;
+  margin-top: 25px;
+  display: flex;
+  color: var(--text-primary1);
+  margin-right: 53px;
+}
+.navbar p a{
+  color: var(--text-primary1);
+}
+.navbar p a:hover{
+color: rgb(54, 206, 240);
+}
+.border{ 
+  font-size: 13px;
+  margin-left: 20px;
+  align-items: center;
+  display: flex;
+  border: solid 3px var(--button);
+  width: 120px;
+  height: 40px;
+  word-spacing: 2px;
+  justify-content: center;
+  border-radius: 30px;
+  color: white;
+}
 
 /* start of section1 */
 .home-container{
@@ -137,7 +212,7 @@
     25%{bottom: 10px; top: 0px}
     50%{bottom: 0px; top:10px}
     75%{bottom: 10px; top: 0px}
-    100%{bottom: 0px; top:10px}
+    100%{bottom: 0px;top:10px}
 }
 
 /* end of section1 */
@@ -229,7 +304,7 @@
   }
   .di7:hover{
     background-color:rgb(54, 206, 240)  ;
-    color: white}
+ color:white}
  /* end of section2 */
  /* start of section3 */
  .wayUs{
@@ -312,7 +387,7 @@ margin-top:1rem;
 .wayUs-lineblue{
 width:3rem;
 height:0.2rem;
-background-color: brown;
+background-color:brown;
 }
 /* end of section3 */
 /* start of section4 */
@@ -375,7 +450,7 @@ background-color: brown;
     }
   }
   .img4{
-    margin-top: -480px;
+    margin-top:-480px;
 }
 /* end of section4 */
 .main{
@@ -697,7 +772,7 @@ button:hover {
    text-align: center;
    color: rgb(1, 1, 57);
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+}
 .team{
     display: flex;
     flex-direction: column;
@@ -760,8 +835,8 @@ button:hover {
   }
   #ico3:hover{
     background:rgb(91, 187, 225) ;
-    color: white;
-  }
+    color:white;
+  }
 .section9{
     width: 100%;
     height: 1100px;
@@ -849,8 +924,8 @@ button:hover {
   }
   .di26:hover{
     background:rgb(54, 206, 240) ;
-    color: white;
-  }
+    color:white;
+}
 .section10{
     width: 100%;
     height: 900px;
@@ -903,8 +978,8 @@ button:hover {
     margin-left: 10px;
   }
   .di28 h2:hover{
-    color: rgb(54, 206, 240);
-  }
+    color: rgb(54,206,240);
+}
 .section11{
     width: 100%;
     height: 1200px;
@@ -1010,8 +1085,8 @@ button:hover {
     height: 60px;
     background-color:rgb(54, 206, 240) ;
     color: white;
-    font-size: larger;
-  }
+    font-size:larger;
+}
 .section12{
     width: 100%;
     height: 500px;
@@ -1050,8 +1125,8 @@ button:hover {
     color: white;
   }
   .d29 p:hover{
-    background:rgb(49, 191, 223) ;
-  }
+    background:rgb(49,191,223);
+}
 .section13{
     width: 100%;
     height: 450px;
@@ -1165,5 +1240,5 @@ button:hover {
     margin-left: 1315px;
     margin-top: -40.8px;
     color: rgb(49, 191, 223);
-    font-size: larger;
-  }
+    font-size:larger;
+}
